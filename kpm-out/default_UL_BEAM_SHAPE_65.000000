@@ -1,0 +1,48 @@
+Flow 1 (13.0.0.5:2123 -> 13.0.0.6:2123) proto UDP
+  Tx Packets: 6
+  Tx Bytes:   1506
+  TxOffered:  0.012170 Mbps
+  Rx Bytes:   1506
+  Lost Packets: 0
+  Packet loss: 0.000000%
+  Throughput: 0.012170 Mbps
+  Mean delay:  0.000707 ms
+  Mean jitter:  0.000168 ms
+  Rx Packets: 6
+Flow 2 (14.0.0.6:2123 -> 14.0.0.5:2123) proto UDP
+  Tx Packets: 6
+  Tx Bytes:   1506
+  TxOffered:  0.012170 Mbps
+  Rx Bytes:   1506
+  Lost Packets: 0
+  Packet loss: 0.000000%
+  Throughput: 0.012170 Mbps
+  Mean delay:  0.000202 ms
+  Mean jitter:  0.000000 ms
+  Rx Packets: 6
+Flow 3 (14.0.0.5:2123 -> 14.0.0.6:2123) proto UDP
+  Tx Packets: 6
+  Tx Bytes:   1398
+  TxOffered:  0.011297 Mbps
+  Rx Bytes:   1398
+  Lost Packets: 0
+  Packet loss: 0.000000%
+  Throughput: 0.011297 Mbps
+  Mean delay:  0.000188 ms
+  Mean jitter:  0.000000 ms
+  Rx Packets: 6
+Flow 4 (13.0.0.6:2123 -> 13.0.0.5:2123) proto UDP
+  Tx Packets: 6
+  Tx Bytes:   1398
+  TxOffered:  0.011297 Mbps
+  Rx Bytes:   1398
+  Lost Packets: 0
+  Packet loss: 0.000000%
+  Throughput: 0.011297 Mbps
+  Mean delay:  0.000188 ms
+  Mean jitter:  0.000000 ms
+  Rx Packets: 6
+
+
+  Mean flow throughput: 0.011733
+  Mean flow delay: 0.000321
