@@ -127,5 +127,9 @@
     \end{tabular}}
     \end{figure}
     \section{Challenges in working with NS3}
-    \section{Final insight}
+    Overall, working with the NS3 simulator and the 5G-LENA plugin wasn't extremely difficult, but it did provide a challenge, especially due to some lacking documentation on the parts of the 5G-LENA plugin.
+    \section{Final insights}
+    While our setup in NS3 does much to simulate the real world, it still cannot account for all the complex real variations of wireless transmission, especially when it comes to the complexity of the network (our scenario only includes 5 UEs and two gNodeBs, while in reality, you could have hundreds of UE devices connected to a single gNodeB). Further, our scenario assumes the UEs are in a fixed position over the duration of the communication which isn't always true in real world scenarios. Our script also uses idealized models for propagation and intereference, which do not fully model real factors like weather patterns, obstacles and device variability in terms of antennas.
+
+    Both of us were somewhat familiar with the C++ language and NS3-specific syntax thanks to the laboratory excercises and this project only helped to further our understanding of both.
 \end{document}
